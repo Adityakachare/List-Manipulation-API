@@ -6,12 +6,12 @@ This is a Go-based API that maintains a list of integers and manipulates it base
 
 - **List Initialization**: The list starts as an empty list of integers.
 - **API Endpoint**: The program exposes a single API endpoint to accept a number and manipulate the list.
-  - **Same Sign**: If the sign of the input number matches the sign of the integers in the list, the input number is appended to the list.
-  - **Opposite Sign**: If the sign of the input number is opposite to the sign of the integers in the list, the program reduces the values in the list in a FIFO (First In First Out) manner until the input number is exhausted.
+- **Same Sign**: If the sign of the input number matches the sign of the integers in the list, the input number is appended to the list.
+- **Opposite Sign**: If the sign of the input number is opposite to the sign of the integers in the list, the program reduces the values in the list in a FIFO (First In First Out) manner until the input number is exhausted.
 
 ### Example Workflow:
 
-1. **Input**: 5
+1. **Input**: 5 
    - **Updated List**: [5]
 
 2. **Input**: 10
@@ -40,8 +40,8 @@ Make sure you have the following tools installed on your system:
 ### 1. Clone the repository
 
 Clone the project to your local machine:
-```bash
-git clone <repository-url>
+```
+https://github.com/Adityakachare/List-Manipulation-API.git
 cd list-manipulation-api
 ```
 
@@ -97,12 +97,7 @@ This will run all the tests and output detailed information for each test case.
 - Input of `0`: No changes are made to the list.
 - If the number to be reduced exceeds the list values, it will completely remove the older elements, and if any quantity is still left, it will be appended back to the list.
 
-## Contributions
-
-Feel free to contribute to this project. You can fork the repository, make your changes, and submit a pull request.
-
 ---
 
 **Author**: Aditya Ashok Kachare  
 **Date**: February 2025  
-```
